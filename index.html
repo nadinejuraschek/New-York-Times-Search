@@ -27,42 +27,61 @@
     </div>
 
     <!-- SEARCH PARAMETERS -->
-    <form class="container parameters">
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Search Term:</label>
-        <input
-          type="search"
-          class="form-control"
-          id="exampleFormControlInput1"
-        />
+    <div class="card">
+      <div class="card-header">
+        Search Parameters
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1"
-          >Number of Records to Retrieve:</label
-        >
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Year</label>
-        <input type="year" class="form-control" id="exampleFormControlInput1" />
-      </div>
+      <div class="card-body">
+        <form class="container parameters">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Search Term:</label>
+            <input
+              type="search"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+            <label for="exampleFormControlSelect2"
+              >Number of Records to Retrieve:</label
+            >
+            <select class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <label for="exampleFormControlInput3">Start Year (Optional)</label>
+            <input
+              type="year"
+              class="form-control"
+              id="exampleFormControlInput3"
+            />
+            <label for="exampleFormControlInput4">End Year (Optional)</label>
+            <input
+              type="year"
+              class="form-control"
+              id="exampleFormControlInput4"
+            />
+          </div>
 
-      <button type="button" class="btn btn-outline-primary">
-        <i class="fas fa-search"></i> Search
-      </button>
-      <button type="button" class="btn btn-outline-primary">
-        <i class="fas fa-trash-alt"></i>
-        Clear Results
-      </button>
-    </form>
+          <button type="button" class="btn btn-outline-primary">
+            <i class="fas fa-search"></i> Search
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            <i class="fas fa-trash-alt"></i>
+            Clear Results
+          </button>
+        </form>
+      </div>
+    </div>
 
     <!-- TOP ARTICLES -->
+    <div class="card">
+      <div class="card-header">
+        Top Articles
+      </div>
+      <div class="card-body"></div>
+    </div>
 
     <!-- FOOTER -->
     <p class="footer">
