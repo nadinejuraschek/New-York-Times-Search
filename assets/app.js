@@ -44,7 +44,7 @@ $("#search-btn").on("click", function (event) {
     // store end year
     endYear = $("#end-year-input").val();
     // add search term, record number, and start/end year to URL
-    var queryURLFull = queryURLBase + "&q=" + searchTerm + "" + recordNumber + "&begin_date=" + startYear + "0101&end_date=" + endYear + "0101";
+    var queryURLFull = queryURLBase + "&q=" + searchTerm + "&begin_date=" + startYear + "0101&end_date=" + endYear + "0101";
     // TEST
     console.log(queryURLFull);
     getInfo(recordNumber, queryURLFull);
