@@ -36,20 +36,23 @@
           <div class="form-group">
             <label for="search-term">Search Term:</label>
             <input type="search" class="form-control" id="search-term" />
-            <label for="record-numbers">Number of Records to Retrieve:</label>
-            <select class="form-control" id="record-numbers">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+          </div>
+          <div class="form-group">
+            <label for="record-number">Number of Records to Retrieve:</label>
+            <select class="form-control" id="record-number">
+              <option value="1">1</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
             </select>
+          </div>
+          <div class="form-group">
             <label for="start-year-input">Start Year (Optional)</label>
             <input type="year" class="form-control" id="start-year-input" />
+          </div>
+          <div class="form-group">
             <label for="end-year-input">End Year (Optional)</label>
             <input type="year" class="form-control" id="end-year-input" />
           </div>
-
           <button id="search-btn" type="button" class="btn btn-outline-primary">
             <i class="fas fa-search"></i> Search
           </button>
